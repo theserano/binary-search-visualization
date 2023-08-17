@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+* {
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
+}
+
+body {
+  background-color: #171717;
+}
+
+h1 {
+  font-family: "Tilt Prism", cursive;
+}
+
+.bin {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main .main_contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main_contain > span {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.main .item {
+  border: 2px solid #9C3D54;
+  border-style: solid none solid solid;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.main .iteml {
+  border-style: solid;
+}
+
+form {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+  justify-content: center;
+}
+form label {
+  font-size: 1.5rem;
+  color: #EEB76B;
+}
+form .look {
+  border: none;
+  border-radius: 0.3rem;
+  width: 100px;
+}
+form .look:focus {
+  outline: none;
+  border: none;
+}
+form .submit, form .reset {
+  color: #fff;
+  background-color: #EEB76B;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-weight: 500;
+}
+form .submit:hover, form .reset:hover {
+  background-color: #E2703A;
+}
+
+.answer {
+  background-color: #519872;
+  transition: all ease-in-out 900ms;
+}
+
+.message {
+  font-size: 2rem;
+  text-align: center;
+  color: #E2703A;
+  font-weight: 600;
+  transition: all ease-in-out 300ms;
+}/*# sourceMappingURL=index.css.map */
